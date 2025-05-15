@@ -49,7 +49,7 @@ accedemos a Swagger http://127.0.0.1:8000/api/documentation
 Usuarios
 
 enpoitn de login
-obtener el token para para utilizarlo en los otros enpoint
+obtener el token para utilizarlo en los otros enpoint
 ![alt text](image.png)
 
 endpoint de logout
@@ -75,6 +75,7 @@ Por defecto esta la opción del Vigia, podemos colocar otra ciudad para obtener 
 ![alt text](image-5.png)
 
 Favoritos
+
 endpoint de marcar favoritos
 
 se puede agregar la ciudades ya buscadas con el id del usuario, en caso que sea una ciudad distinta no la gurdara retorna un mensaje de validacion
