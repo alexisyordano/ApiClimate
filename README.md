@@ -46,4 +46,45 @@ accedemos a Swagger http://127.0.0.1:8000/api/documentation
 
 ## Uso
 
+Usuarios
+enpoitn de login
+obtener el token para para utilizarlo en los otros enpoint
 ![alt text](image.png)
+
+endpoint de logout
+
+![alt text](image-1.png)
+
+endpoint de creacion de usuarios
+
+![alt text](image-2.png)
+
+endpoint de actulizar
+
+solo el usuario Admin puede eliminar y actualizar, los otros usuario no tiene ese privilegio error 403 permisos
+![alt text](image-3.png)
+
+endpoint de eliminar
+![alt text](image-4.png)
+
+clima
+
+endpoint
+Por defecto esta la opción del Vigia, podemos colocar otra ciudad para obtener el clima
+![alt text](image-5.png)
+
+Favoritos
+endpoint de marcar favoritos
+
+se puede agregar la ciudades ya buscadas con el id del usuario, en caso que sea una ciudad distinta no la gurdara retorna un mensaje de validacion
+![alt text](image-6.png)
+
+endpoint buscar favoritos
+buscamos nuestras ciudades con el id del usuario logueado
+![alt text](image-7.png)
+
+Historial
+
+buscamos el historial por usuario
+endpoint de buscar historial
+![alt text](image-8.png)
