@@ -90,3 +90,8 @@ Historial
 buscamos el historial por usuario
 endpoint de buscar historial
 ![alt text](image-8.png)
+
+la pruebas unitarias estan optimizada para aprobar
+caso de fallo
+en los usuarios poner un rol distintos, validaciones de los campos, ruta del endpoint
+en el servicio WeatherService probar con otra direccion distina
